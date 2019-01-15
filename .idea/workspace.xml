@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199de210-2a54-4408-bcb6-e0ac5a018fb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/T/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/T/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/note.txt" afterDir="false" />
-    </list>
+    <list default="true" id="199de210-2a54-4408-bcb6-e0ac5a018fb1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="e#166#167#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
@@ -57,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/EmployeeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -88,8 +83,8 @@
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/t1.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/HelloWorld.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/Puppy.java" />
-        <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java" />
       </list>
     </option>
   </component>
@@ -132,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547539408261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547540255759" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -189,9 +184,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="547" y="128" width="759" height="718" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29846582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29846582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -206,7 +200,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3270869" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3270869" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -256,10 +250,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#166#167#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
@@ -270,13 +271,6 @@
             <element signature="e#462#463#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
