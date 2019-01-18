@@ -1,1 +1,134 @@
 Java 条件语句 - if...else
+
+
+一个if语句包含一个布尔表达式和一条或多条语句
+
+
+if(布尔表达式){ //如果布尔表达式为true将执行的语句}
+
+如果布尔表达式的值为true,则执行if语句中的代码块,否则执行if语句块后面的代码
+
+if...else语句
+
+if(布尔表达式){//如果布尔表达式的值为true}
+else{//如果布尔表达式的值为false}
+
+
+if...else if ...else语句
+注意
+1.if 语句至多有1个else语句,else语句在所有的else if语句之后
+2.if 语句可以有若干个else if语句,它们必须在else语句之前
+3. 一旦其中一个ele if 语句检测为true,其他的else if以及else语句都将跳过执行
+
+
+if (布尔表达式1){//如果布尔表达式 1的值为true执行代码}
+else if (布尔表达式2) {//如果布尔表达式2的值为true执行代码}
+else if (布尔表达式3) {//如果布尔表达式3的值为true执行代码}
+else{//如果以上布尔表示式都不为true执行代码}
+
+嵌套的if...else语句
+
+if(布尔表达式1){
+//如果布尔表达式1的值为true执行代码}
+if (布尔表达式2){
+如果布尔表达式2的值为true执行代码}
+
+
+java switch case语句
+
+switch case语句判断一个变量与一系列值中某个值是否相等,每个值成为一个分支
+
+语法
+
+switch(expression){
+case value:
+ //语句
+  break; //可选
+case value:
+// 语句
+break; // 可选
+// 你可以有任意数量的case语句
+default://可选
+//语句
+}
+
+1.switch语句可以拥有多个case语句.每个case后面跟一个要比较的值和冒号
+2.switch语句中的值的数值类型必须与变量的数据类型相同,而且只能是常量或字面常量
+3.当变量的值与case语句的值相等时,那么case语句之后的语句开始执行,直到break语句出现
+才跳出switch语句
+4.当遇到break语句时,switch语句终止.程序跳转到switch语句后面的语句执行.case语句
+不必须要包含break语句.如果没有break语句出现,程序会继续执行下一条case语句,直到
+出现break语句
+5.switch语句可以包含一个default分支,该分支一般是switch语句的最后一个分支
+(可以在任何位置,但建议在最后一个).default在没有case语句的值和变量值相等的
+时候执行.default分支不需要break语句
+
+
+switch case执行时,一定会先执行匹配,匹配成功返回当前的值,再根据是否有break,
+判断是否继续输出,或跳出判断
+
+
+如果case语句块中没有break语句时,JVM并不会顺序输出每一个case对应的返回值,而是继续
+匹配,匹配不成功则返回默认case
+
+如果case语句块中没有break语句时,匹配成功后,从当前case开始,后续所有case的值都会输出
+
+java Number & Math类
+
+一般的,当需要使用数字的时候.通常使用内置数据类型,如byte,int,long,double等
+int a = 5000;
+float b = 13.65f;
+byte c = 0x4c
+
+java语言为每一个内置数据类型提供了对应的包装类
+所有的包装类（Integer、Long、Byte、Double、Float、Short）都是抽象类 Number 的子类。
+
+这种由编译器特别支持的包装成为装箱,所以当内置数据类型被当做对象使用的时候,编译器会把
+内置类型装箱为包装类.相似的,编译器也可以把一个对象拆箱为内置类型.
+Number类属于java.lang包
+
+当x被赋值为整型值时,由于x是一个对象,所以编译器要对x进行装箱.然后,为了使x能进行运算,
+所以要对x进行拆箱
+
+java Math类
+
+java的Math包含了用于执行基本数学运算的属性和方法,如初等指数,对数,平方根和三角函数
+math的方法被定义为static形式,通过math类可以在主函数中直接调用
+
+Number &　Math类方法
+１．　xxxValue()
+2.   compareTo()
+3. equals()
+4. valueOf()
+5.toString()
+6.parseInt()
+7.abs()
+8. cell()
+9. floor()
+10. rint()
+11. round()
+12. min()
+13. max()
+14. exp()
+15. log()
+16. pow()
+17. sqrt()
+18. sin()
+19. cos()
+20. tan()
+22.acos()
+23.atan()
+24.atan2()
+25.toDegrees()
+26.toRadians()
+27.random()
+Math 的 floor,round 和 ceil 方法实例比较
+
+floor向下取整
+round四舍五入
+ceil向上取整
+
+
+Java Character类
+Character 类用于对单个字符进行操作
+Cc

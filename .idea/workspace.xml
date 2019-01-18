@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="199de210-2a54-4408-bcb6-e0ac5a018fb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/clear" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/note2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/note2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,29 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#760#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/selfAddMinus.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -84,8 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +84,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,8 +146,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="607" y="0" width="759" height="718" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33193862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34030685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -217,34 +196,21 @@
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/QiangZhiZhuanHuan.java" />
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Variable.java" />
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/mm.java" />
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java">
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/InstanceCounter.java" />
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/InstanceCounter.java">
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#0#760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -253,23 +219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
