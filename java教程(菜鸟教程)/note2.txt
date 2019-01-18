@@ -131,4 +131,87 @@ ceil向上取整
 
 Java Character类
 Character 类用于对单个字符进行操作
-Cc
+Character类在对象中包装一个基本类型char的值
+
+java语言为内置数据类型char提供了包装类Character类
+Character类提供了一系列方法来操纵字符．你可以使用Character的构造方法创建一个Ｃharacter类对象
+
+Character ch = new Character("a");
+
+例如,将一个char类型的参数传递给需要一个Character类型参数的方法时，那么编译器会自动地将char类型
+参数转换为Character对象．这种特征称为装箱，反过来称为拆箱
+
+转义序列
+
+前面有反斜杠(\)的字符代表转义字符，它对编译器来说有特殊含义
+
+\t
+\b
+\n
+\r
+\f
+\'
+\"
+\\
+
+Character方法
+
+１．　isLetter()
+2. isDigit()
+3. isWhitespace()
+4. isUpperCase()
+5.isLowerCase()
+
+
+java String类
+
+
+字符串广泛应用在java编程中，在java中字符串属于对象，java提供了String类来创建和操作字符串
+
+
+创建字符串
+String 类有 11 种构造方法，这些方法提供不同的参数来初始化字符串，比如提供一个字符数组参数:
+
+注意，String类是不可改变的，所以一旦创建了String对象，那它的值就无法改变了
+如果需要对字符串做很多修改，那么应该选择使用 StringBuffer & StringBuilder 类。
+
+字符串长度
+
+用于获取有关对象的信息的方法成称为访问器方法
+String类的一个访问其方法是length()方法，它返回字符串对象包含的字符数
+
+连接字符串
+
+concat , + 
+
+创建格式化字符串
+
+输出格式化数字可以使用printf()和format()方法
+
+java数组
+
+声明数组变量
+首先必须声明数组变量，才能在程序中使用数组．
+
+dataType[] arrayRefVar; //首选的方法
+
+或
+
+处理数组
+
+ｆor-each玄幻
+
+for (type element:array){
+System.out.println(element);}
+
+数组作为函数的参数
+
+Array类
+
+java日期时间
+
+Date()
+
+java正则表达式
+
+Java 方法

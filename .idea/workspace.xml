@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="199de210-2a54-4408-bcb6-e0ac5a018fb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/note2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java教程(菜鸟教程)/note2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/Vericle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/selfAddMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/selfAddMinus.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -48,6 +72,8 @@
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/selfAddMinus.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" />
+        <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.java" />
+        <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java" />
       </list>
     </option>
   </component>
@@ -62,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,7 +112,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,9 +172,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="607" y="0" width="759" height="718" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34030685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35006973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -198,13 +223,6 @@
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/mm.java" />
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Employee.java" />
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/InstanceCounter.java" />
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -219,6 +237,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
