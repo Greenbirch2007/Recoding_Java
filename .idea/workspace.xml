@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199de210-2a54-4408-bcb6-e0ac5a018fb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/Java Number &amp; Math 类.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/Java 源程序与编译型运行区别.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/java内存管理系统.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/note1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java教程(菜鸟教程)/note2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +11,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/菜鸟教程/T/StringComparePerformance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +48,15 @@
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" />
         <option value="$PROJECT_DIR$/java教程(菜鸟教程)/T/TestMax.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/StringCompareEmp.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/SearchlastString.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/Main.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/StringReplaceEmp.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/StringReverseExample.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/SearchStringEmp.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/JavaStringSplitEmp.java" />
+        <option value="$PROJECT_DIR$/菜鸟教程/T/StringComparePerformance.java" />
       </list>
     </option>
   </component>
@@ -59,14 +71,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Recoding_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recoding_Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recoding_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recoding_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="菜鸟教程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recoding_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recoding_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="菜鸟教程" type="462c0819:PsiDirectoryNode" />
+              <item name="T" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,9 +155,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="607" y="0" width="759" height="718" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35983264" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.37935844" />
+      <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.36959553" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -148,7 +172,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3270869" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3270869" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -185,34 +209,47 @@
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/InstanceCounter.java" />
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Car.java" />
     <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/selfAddMinus.java" />
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.java">
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.java" />
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.class" />
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java" />
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java" />
+    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/TestMax.java" />
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/HelloWorld.java" />
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/StringCompareEmp.java" />
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/SearchlastString.java" />
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/Main.java" />
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/StringReplaceEmp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/StringDemo.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/TestArray.java">
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/StringReverseExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/Test.java">
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/SearchStringEmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java教程(菜鸟教程)/T/TestMax.java">
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/JavaStringSplitEmp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/菜鸟教程/T/StringComparePerformance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
