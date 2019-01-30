@@ -1,0 +1,327 @@
+Eclipse Debug 配置
+创建和使用 Debug 配置
+Eclipse Debug 配置类似于运行配置但它是用于在调试模式下开启应用。
+
+打开 Debug 配置对话框步骤为：Run > Debug Configurations 。
+
+从左侧列表中选择 "Java Application" 选项来创建 Java 应用的调试配置并 New 按钮。
+
+对话框中的描述信息有：
+
+调试配置的名称
+项目名称
+主类名
+arguments(参数)选项卡的描述信息有:
+
+零个或多个程序参数
+零个或多个虚拟机参数（VM arguments）
+
+保存运行配置信息并点击 Apply 按钮，然后点击 Debug 按钮在调试模式下载入应用。
+
+
+Eclipse Debug 调试
+Debug 调试 Java 程序
+我们可以在 Package Explorer 视图调试 Java 程序，操作步骤如下：
+
+鼠标右击包含 main 函数的 java 类
+选择 Debug As > Java Application
+该操作也可以通过快捷键来完成，快捷键组合为 Alt + Shift + D, J。
+
+以上操作会创建一个新的 Debug Configuration（调试配置） ，并使用该配置来启动 Java 应用。
+
+如果 Debug Configuration（调试配置）已经创建，你可以通过 Run 菜单选择 Debug Configurations 选取对应的类并点击 Debug 按钮来启动 Java 应用。
+Run 菜单的 Debug 菜单项可以重新加载之前使用了调试模式的 java 应用。
+
+
+重新加载之前使用了调试模式的java应用快捷键F11
+当使用调试模式开启java程序时，会提示用户切换到调试的透视图。调试透视图提供了其他的视图用于排查应用程序的故障
+java编译器可以设置断点调试。在编辑器中右击标记栏并选择 Toggle Breakpoint 来设置断点调试。
+
+断点可以在标记栏中看到。也可以在 Breakpoints View（断点视图）中看到。
+
+当程序执行到断点标记的代码时 JVM 会挂起程序，这时你可以查看内存使用情况及控制程序执行。
+
+程序挂起时，Debug(调试)视图可以检查调用堆栈。
+
+variables(变量)视图可以查看变量的值。
+Run 菜单中有继续执行(Resume)菜单项，跳过(Step Over)一行代码，进入函数(Step Into)等。
+以上图片中显示了 Resume, Step Into 和 Step Over 等关联的快捷键操作。
+
+Eclipse 首选项(Preferences)
+
+设置首选项
+该对话框可通过框架管理但是其他插件可以设置其他页面来管理首选项的配置
+我们可以通过Window菜单选择Preferences菜单项开启该对话框
+
+首选项页面有多个分类组成。你可以在左侧菜单中展开各个节点来查看首选项的配置。
+
+左上角的输入框可以快速查找首选项页面。 你只需在输入框中输入要查找的首选项页面的字母即可快速找到对应的首选项页面。 例如：输入 font 即可查找到 Font(字体) 首选项页面。
+
+Eclipse 内容辅助
+
+
+使用内容辅助
+
+Eclipse中我们可以使用代码提示来加快开发速度，默认是输入"."后出现自动提示，用于类成员的自动提示。
+
+设置自动提示的配置在：window->Preferences->Java->Editor->Content Assist：
+
+在我们输入类的首字母按 alt + / 显示辅助提示。
+
+输入"."后出现自动提示的内容有:
+1.类变量
+2.类方法
+3.超类方法
+4.其他相关类
+
+
+Eclipse 快速修复
+
+在 Eclipse 编辑器中当你输入字母时，编辑器会对你输入的内容进行错误分析。
+
+Java 编辑器中使用 Java 语法来检测代码中的错误。当它发现错误或警告时：
+
+使用红色波浪线突出错误
+使用黄色的波浪线突出警告
+在 Problem 视图中显示错误和警告
+在垂直标尺上显示黄色小灯泡及警告和错误标识
+快速修复的对话框提供了解决的方案。快速修复对话框可通过以下方式调用：
+
+将鼠标指针放在波浪线上
+点击小灯泡
+将鼠标指针放在突出的文本上并选择 Edit 菜单上的 Quick fix 项或者按下快捷键 Ctrl + 1
+
+在上图中，getId 被高亮显示，因为 Person 类中没有一个名为的 getId() 方法。 在弹出的修复方案中选择 "Create method 'getId()' in type 'Person'" 这样就能在 Person 类中添加 getId() 方法。
+
+也可以通过右键点击 Problems 视图中的错误项，然后选择快速修复菜单项显示的快速修复对话框，如下图所示：
+
+Eclipse 悬浮提示
+
+使用悬浮提示
+java 编辑器中包含了不同类型的悬浮提示，悬浮提示提供了鼠标指针指向元素的额外信息。所有java编辑器中相关的悬浮提示可以通过 preference(首选项) 的 Hovers 页面来配置（搜索框中输入 "hover"）。
+
+java 编辑器中将鼠标指针移至类上，将显示与该类相关的java文档信息。
+
+
+Eclipse 查找
+
+工作空间中查找
+Eclipse查找对话框中可以允许用户在指定工作空间上使用单词或字母模式
+来查找文件。 或者你可以在指定项目或在 package explorer 视图上选择好指定文件夹来查找。
+
+可通过以下方式来调用查找框：
+
+在 Search 菜单上选择 Search 或 File 或 Java
+按下快捷键： Ctrl + H
+
+文件(File)查找允许用户查找所有文件类型，而 Java 查找只针对 Java 文件进行查找。
+
+例如我们查找 Person 类型使用的情况，可以通过 Java 查找页面：
+
+在查找框中输入 Person
+在 search for 的单选按钮中选择 Type
+在 limit to（限于）单选按钮中选择 References
+点击 Search
+Search 视图中显示结果如下：
+
+Eclipse 浏览(Navigate)菜单
+
+浏览Eclipse工作空间
+浏览(Navigate)菜单提供了多个菜单可以让你快速定位到指定资源
+
+Open Type
+Open Type in Hierarchy
+Open Resource
+
+
+Open Type
+
+Open Type 菜单项可以打开一个对话框，对话框中可以查找 Java 类型文件。
+
+你可以在输入框中输入类名查找。 '*' 号表示 0 个或多个字母，'?' 号表示单个字母可用于指定模式。对话框中将显示所有匹配的模式。
+
+你列表中选择你查找的文件即可。
+
+Eclipse 将打开一个编辑器，显示所选择的类型。如果所选类型不能显示源代码，将使用类文件编辑器显示所选类型的字节码。
+你可以点击 Attach Source 按钮来查看类文件对应的源码。
+
+源代码位于 Java 主目录中的 src.zip 压缩文件中。
+
+Open Type in Hierarchy
+
+Open Type in Hierarchy 菜单允许用户在 Type Hierarchy 视图中查看类的继承层次。
+
+
+Type Hierarchy视图中选择指定的类就可以看到类的定义信息，包含对应的属性和方法：
+
+Open Resource
+open resource(打开资源)菜单可用于查找工作空间中的文件。
+
+'*' 号表示 0 个或多个字母，'?' 号表示单个字母可用于指定模式。对话框中将显示所有匹配的模式。
+
+Eclipse 重构菜单
+
+
+使用Eclipse重构
+
+在项目开发中我们经常需要修改类名，单如果其他类依赖该类时，我们就需要花很多时间去修改类名
+但Eclipse重构功能可以自动检测类的依赖关系并修改类名，节省时间
+可用过以下方式打开重构菜单：
+在 Package Explorer 视图中右击 Java 元素并选择Refactor(重构)菜单项
+
+在 Java 编辑器中鼠标右击 Java 元素并选择Refactor(重构)菜单项
+在 Package Explorer 视图中选择 Java 元素并按下 Shift + Alt + T
+下图中我们在Java 编辑器中选中了 HelloWorld 类：
+
+在选择 Rename 后会提示输入新的类名并按回车结束修改：
+
+在修改完成按下回车键后，会弹出将将会修改的类：
+
+你只需点击 Continue 按钮即可完成操作。
+
+Eclipse 添加书签
+
+关于书签
+
+Eclipse中可以在编辑器的任意一行添加书签。您可以使用书签作为提示信息，或使用书签快速定位到文件中的
+指定的行
+
+添加书签
+
+如果你想设置书签，你只需要在垂直标尺上右击鼠标并选择能 "Add Bookmark" 即可。
+
+在弹出的对话框中输入书签名。
+
+垂直标尺上就会出现一个书签的按钮，当然你也可以在 Bookmarks 视图中查看到书签列表。
+
+打开Bookmarks(书签)视图
+打开 Bookmarks 视图的方法为:
+
+点击 Window 菜单选择 Show View > Other
+在搜索输入框中输入 Bookmark
+在 General 下选择 Bookmarks
+点击 OK 按钮
+使用 Bookmarks(书签) 视图
+Bookmarks 视图如下：
+
+你可以在 Bookmarks 视图中双击书签或者鼠标右击书签选择"Go to"菜单来快速定位书签所在的位置。
+
+删除Bookmarks(书签)
+你可以在垂直书签上右击编辑并选择 Remove Bookmark 来删除书签：
+或者在 Bookmarks 视图视图中右击书签并选择"Delete"菜单项来删除书签：
+
+Eclipse 任务管理
+
+管理任务
+在Eclipse中用TODO标签管理任务，利用这个功能可以方便地将项目中一些需要处理的任务记录下来。
+
+我们可以在 Java 代码中的注释添加 TODO 单词来标记一个任务，任务可以通过 Tasks(任务) 视图查看。
+在Eclipse中我们可以通过鼠标右击垂直标尺并选择 Add Task 菜单来添加任务，在弹出的对话框中输入任务描述信息：
+
+如果需要删除任务，只需右击任务图标选择 Remove Task 菜单项即可：
+
+
+打开 Task(任务) 视图
+打开 Task(任务) 视图的方法为：
+
+在 Window 菜单中选择 Show View > Other
+在搜索框中输入 Tasks
+在 General 下选择 Tasks
+最后点击 OK 按钮
+
+使用 Task(任务) 视图
+Task(任务) 视图中显示了项目中所有待完成的任务：
+Task(任务) 视图中还能进行以下操作：
+
+修改任务右下角
+标记任务已完成
+删除任务或删除所有已完成任务
+
+
+Eclipse 安装插件
+
+查找和安装插件
+Eclipse作为一个集成的IDE开发工具，为我们的软件开发提供了便利，eclipse除了自带的强大功能外，还支持功能丰富的插件。
+
+我们可以通过Eclipse官方市场 (http://marketplace.eclipse.org/)找到并下载我们需要的插件。
+
+例如我们可以查找支持 Python IDE 的插件，如下图所示：
+
+在 Eclipse IDE 中我们也可以通过点击 Help 菜单中的 Eclipse Marketplace（Eclipse 超市）选项来查找插件：
+
+上图中我们选择 PyDev 让 Eclipse 支持 Python 开发，我们只需要点击 Install 按钮即可。以下对话框为选择安装的插件。
+你也可以通过点击 Help 菜单上的 Install New Software 菜单项来安装插件：
+
+这种方式我们需要知道插件远程的安装地址，你可以通过点击 Add 按钮来提交 URL。
+
+安装的对话框中列出了远程可安装的插件列表：
+
+Eclipse 代码模板
+
+使用代码模板
+
+Eclipse提供了通过定义和使用代码模板来提高工作效率与
+代码可预测型的能力
+我们在开发 Java 程序过程中经常需要编写 main 方法：
+
+public static void main(String[]args){}
+
+如果我们一个字母一个字母去编写，将是一个重复而又毫无意义的事情，这是我们就可以使用 Eclipse 代码模板来快速完成这些工作。
+
+我们只需在类体中键入main，然后使用Eclipse的代码提示快捷键(默认为Alt+/)，回车后，就可以看到Eclipse自动帮我们完成了main函数的完整定义：
+
+如果我们要使用 System.out.println()，我们只需要输入 syso 然后按下 Alt+/ 即可：
+
+自定义代码模板
+
+Eclipse 还提供了非常多的代码模板，我们可以通过 Windows->Preferences->Java->Editor->Templates (你可以在搜索框中输入Templates查找)看到所有已定义的代码模板列表。
+
+我们在弹窗口选中 sysout 模板并点击右侧Edit，显示如下：
+
+
+编辑面板是核心关注对象，因为一切东西都在这里面配置。先来熟悉下这个面板中关键的五项分别是什么。
+
+Name：名称，其实就是以后可以用到的代码缩写
+Context：模板上下文，指定该代码模板在什么地方才能生效，对于Java至少包含这么四个：
+Java type members，模板对应的代码是类成员，psvm模板严格来说应该选择这个
+Java statements，模板对应的代码是语句块
+Java，最通用的，只要是Java代码就行
+Java doc，顾名思义了
+模板变量：eclipse已经预置了一些模板变量（点Insert Varibles可以看到所有预置变量），如：
+${cursor}是表示光标
+${date}表示当前日期字符串
+${time}表示当前时间字符串
+${line_selection}让当前行被选中
+${word_selection}让当前单词被选中
+当然我们也可以定义自己的模板变量，比如我定义一个 ${myTemplateVarible}，那么对应代码显示的就是 myTemplateVarible。
+Pattern：代码模板对应的模式，按照你希望代码的格式逐个输入即可
+更多自定义代码模板的内容你可以通过点击 Help 菜单中的 Help Contents 选项，在弹出的对话框的搜索栏上输入 "Java Editor Template Variables" 选择 Java Editor Template Variables 查看具体的文档描述：
+
+Eclipse 快捷键
+
+
+关于快捷键
+Eclipse 的很多操作都提供了快捷键功能，我们可以通过键盘就能很好的控制 Eclipse 各个功能：
+
+使用快捷键关联菜单或菜单项
+使用快捷键关联对话窗口或视图或编辑器
+使用快捷键关联工具条上的功能按钮
+
+设置快捷键
+Eclipse 系统提供的快捷键有时比较难记住，甚至根本没有提供快捷键时，就需要自己手动设置快捷键。
+
+我们可以通过点击window->preferences->general->keys（或直接搜索keys），进入快捷键管理界面：
+
+在这里可以查找所有功能的快捷键，需要修改或新增时，点击需要修改或新增的命令，在 binding 里设置快捷键:
+
+
+设置完快捷键后，还需要设置在什么时候可以使用该快捷键，eclipse提供各种场景供选择，一般选择In Windows(即在eclipse窗口激活状态)即可。
+
+Eclipse 重启选项
+
+在安装插件后，用户一般都会被提醒要重启 Eclipse。如果用户当时没有重启Eclipse，可以通过该选项来重启。
+
+
+Eclipse 内置浏览器
+
+
